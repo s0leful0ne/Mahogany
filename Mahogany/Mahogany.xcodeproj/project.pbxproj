@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86A983491A33BC2A00F03619 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A983481A33BC2A00F03619 /* MapKit.framework */; };
 		86B842DD1A33B53100432A53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B842DC1A33B53100432A53 /* main.m */; };
 		86B842E01A33B53100432A53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B842DF1A33B53100432A53 /* AppDelegate.m */; };
 		86B842E31A33B53100432A53 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B842E21A33B53100432A53 /* FirstViewController.m */; };
@@ -28,12 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86A983481A33BC2A00F03619 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		86B842D71A33B53100432A53 /* Mahogany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mahogany.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B842DB1A33B53100432A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B842DC1A33B53100432A53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86B842DE1A33B53100432A53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86B842DF1A33B53100432A53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		86B842E11A33B53100432A53 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		86B842E11A33B53100432A53 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		86B842E21A33B53100432A53 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		86B842E41A33B53100432A53 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		86B842E51A33B53100432A53 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A983491A33BC2A00F03619 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 		86B842CE1A33B53100432A53 = {
 			isa = PBXGroup;
 			children = (
+				86A983481A33BC2A00F03619 /* MapKit.framework */,
 				86B842D91A33B53100432A53 /* Mahogany */,
 				86B842F61A33B53100432A53 /* MahoganyTests */,
 				86B842D81A33B53100432A53 /* Products */,
@@ -420,6 +424,7 @@
 				86B842FF1A33B53100432A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86B843001A33B53100432A53 /* Build configuration list for PBXNativeTarget "MahoganyTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +433,7 @@
 				86B843021A33B53100432A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
